@@ -3,7 +3,6 @@ const mongoose =require("mongoose");
 const SleepSchema=new mongoose.Schema({
     userId:{
         type:mongoose.Schema.Types.ObjectId,
-        unique:true,
         required:true
     },
     timeLength:{
